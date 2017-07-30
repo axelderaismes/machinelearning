@@ -21,7 +21,19 @@ I use in the model a random forest (RF) classifier which, after experimentations
 For information, I tried to use neural networks (MLP with Keras) for this task but it was much more time and CPU consumming for no or very little gain. Better use the best tools for a specific task !
 
 
-
+NB : In this project, You will find a Jupyter Notebook that you can run with :
+```bash
+jupyter notebook
+```
+or you can the python file like this :
+- To train :
+```bash
+python outlook_train_and_predict.py train
+```
+- To predict:
+```bash
+python outlook_train_and_predict.py predict
+```
 
 
 
